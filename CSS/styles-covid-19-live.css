@@ -1,0 +1,221 @@
+body {
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Inter', sans-serif;
+}
+
+p {
+  color: black;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #CDF0EA;
+}
+
+.white-section {
+  background-color: #F9F9F9;
+}
+
+/* Heading section */
+.big-heading {
+  font-family: 'Inter', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.kkm {
+  width: 70%;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* navigation bar */
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  ;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-dark .navbar-brand {
+  color: #000000;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #000000;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Download buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title section */
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* Title Image */
+.title-img1, .title-img2 {
+  border-radius: 15px;
+  border-style: inset;
+}
+
+.title-img1 {
+  position: relative;
+  width: 49%;
+  height: 100%;
+  display: inline-block;
+}
+
+.title-img2 {
+  position: absolute;
+  top: 25%;
+  right: 0px;
+  width: 45%;
+  left: 50%;
+}
+
+/* Statistik section */
+#statistik {
+  position: relative;
+}
+
+.statistik-head {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+/* Varian */
+#varian {
+  background-color: #CDF0EA;
+  /* height: 100%; */
+  position: relative;
+}
+
+#varian .container-fluid {
+  padding: 0;
+  height: 100%;
+}
+
+.varian-box {
+  padding: 5%;
+}
+
+.varian-name {
+  font-family: 'Inter', sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.varian-image {
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Source */
+.source-text {
+  text-align: left;
+  margin-left: 200px;
+}
+
+#source {
+  background-color: #CDF0EA;
+  padding-bottom: 1%;
+}
+
+.source-logo {
+  width: 5%;
+  margin: 20px 20px 50px;
+}
+
+/* footer section */
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+#footer {
+  background-color: #fff;
+}
+
+.footer-div {
+  display: inline-block;
+}
+
+.footer-logo {
+  margin: 5% 10px;
+}
+
+.copyright {
+  width: 30%;
+  display: inline-block;
+  position: absolute;
+  margin-right: 0;
+  right: 0;
+  top: 15%;
+  text-align: right;
+  padding-right: 1%;
+}
+
+/* derma page */
+.derma-text {
+  color: black;
+}
+
+.derma {
+  position: relative;
+  margin-top: 20%;
+}
+
+.derma-button{
+  margin-left: 3%;
+}
+
+/* media viewport setting */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+}
